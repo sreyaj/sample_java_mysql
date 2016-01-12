@@ -9,5 +9,7 @@ after_success:
    - mvn clean cobertura:cobertura
    - mvn test
 notifications:
-  email: false
+  email: 
+  recipients:
+   sreya@shippable.com
 
