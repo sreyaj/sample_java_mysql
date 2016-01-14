@@ -10,4 +10,8 @@ after_success:
    - mvn test
 notifications:
   email: false
+# environment variable
+env:
+ - FOO=foo BAR=bar
+ - FOO=bar BAR=foo
 
