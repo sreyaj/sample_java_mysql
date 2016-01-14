@@ -14,4 +14,9 @@ notifications:
 env:
  - FOO=foo BAR=bar
  - FOO=bar BAR=foo
+matrix:
+   exclude:
+      - sample_java_mysql: 6.1
+      - sample_java_mysql: 6.2
+      - sample_java_mysql: 6.3
 
